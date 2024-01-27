@@ -2,7 +2,7 @@
   "name": "brillancy",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://brilliancycloud.com/",
+  "homepage": "https://susie-d.github.io/brilliancy",
   "type": "module",
   "scripts": {
     "dev": "vite",
