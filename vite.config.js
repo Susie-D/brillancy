@@ -16,12 +16,6 @@ export default defineConfig({
     assetsDir: "assets", // Directory for static assets in the build output.
     minify: "terser", // Minification options (terser or esbuild).
   },
-
-  // Plugins configuration.
-  plugins: [
-    // Add any Vite plugins here.
-  ],
-
   // Additional configurations.
   // ...
 });
