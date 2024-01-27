@@ -3,11 +3,12 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/brilliancycloud/",
+  base: "/",
   plugins: [react()],
   // Development server settings.
   server: {
     port: 3000, // The port on which the development server will run.
+    host: true,
   },
 
   // Build configuration.
