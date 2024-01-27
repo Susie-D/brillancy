@@ -14,7 +14,7 @@ export default defineConfig({
   build: {
     outDir: "dist", // Output directory for production build.
     assetsDir: "assets", // Directory for static assets in the build output.
-    minify: "terser", // Minification options (terser or esbuild).
+    minify: "esbuild", // Minification options (terser or esbuild).
   },
   // Additional configurations.
   // ...
